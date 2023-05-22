@@ -1,0 +1,220 @@
+/* styles.css */
+
+.portait {
+    width: 400px; /* Ajuster la valeur selon vos besoins */
+    height: 70px; /* Garde le ratio d'aspect de l'image */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    background-color: white;
+}
+
+header {
+    background-color: #0364ae;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+.navbar a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: inline-block;
+  overflow: hidden;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.background-image {
+    background-image: url('siliconevalley2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.overlay-text {
+    text-align: left;
+    color: white; 
+    margin-left: 50px;
+    font-size: 25px; 
+    background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% d'opacité */
+}
+
+section {
+    margin: 0px;
+}
+
+
+.centered-text {
+    text-align: center; 
+    padding: 20px; /* Ajoute un peu d'espace autour du texte */
+    bottom: 0;
+    width: 100%;
+    }
+
+
+    .column-text {
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        gap: 25px; /* Ajoute un espace de 20px entre les colonnes */
+    }
+
+    .column {
+        margin: 0 25px; /* Ajoute une marge de 10px à gauche et à droite de chaque colonne */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 25px; 
+        align-items: center;
+        text-align: center;
+        background-color: rgba(185, 189, 192, 0.353);
+        height: 100%;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centered-title {
+        text-align: center;
+    }
+
+    .logo {
+        width: 100px; /* Définit la largeur de tous les logos */
+        height: 100px; /* Définit la hauteur de tous les logos */
+        object-fit: contain; /* Garantit que l'ensemble de l'image est visible */
+    }
+
+    .round-button {
+        background-color: red; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border: none; 
+        border-radius: 50px; 
+    }
+    
+    .round-button:hover {
+        background-color: darkred; 
+    }
+    
+    .styled-button {
+        color: #fff; /* Texte blanc */
+        background-color: #0364ae; /* Arrière-plan bleu */
+        border: none; /* Aucune bordure */
+        padding: 15px 32px; /* Padding autour du texte */
+        text-align: center; /* Texte centré */
+        text-decoration: none; /* Aucune décoration de texte */
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px; /* Marge autour du bouton */
+        cursor: pointer; /* Change le curseur lorsque vous survolez le bouton */
+        border-radius: 4px; /* Coins arrondis */
+    }
+    
+
+    body {
+        padding-bottom: 100px; /* Ajustez cette valeur en fonction de la hauteur de votre pied de page */
+    }
+    
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+        width: 100%;
+        max-width: 2200px; /* adjust as needed */
+        padding: 0 20px; /* adjust as needed */
+    }
+    
+    .footer-logo {
+        height: 50px; /* adjust as needed */
+        width: auto; /* adjust as needed */
+    }
+    
+    .footer-text {
+        text-align: center;
+        flex-grow: 1;
+    }
+    
+    
+    
